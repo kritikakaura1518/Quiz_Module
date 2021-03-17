@@ -1,0 +1,64 @@
+.test {
+  background-color: gray;
+  color:white;
+  font-size:40px;
+}
+fieldset {
+  margin: 20px;
+  border: 1px solid #666;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #666;
+}
+
+ul{
+    list-style: none;
+}
+
+input[type=radio]{
+    border: 0px;
+    width: 20px;
+    height: 1em;
+}
+
+.question{
+
+    font-size: 1.5em;
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.nextButton{
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: green;
+    color:#fff;
+    font-family: 'Rokkitt', serif;
+    font-weight: bold;
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.quizMessage{
+    background-color: peachpuff;
+    border-radius: 6px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 2px;
+    font-family: 'Rokkitt', serif;
+    color: red;
+}
+.result {
+    width: 30%;
+    height: auto;
+    border-radius: 6px;
+    background-color: linen;
+    margin: auto;
+    margin-bottom: 35px;
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+}
